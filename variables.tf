@@ -11,7 +11,7 @@ variable "instance_type"{
 }
 
 variable "ami"{
-  decription = "ami id of for the instance"
+  description = "ami id of for the instance"
   type = string 
   default = "ami-0efdf839508ec2995"  #US-West-2
 }
